@@ -1,1 +1,1 @@
-{"scripts":{"preinstall":"echo $GITHUB_TOKEN"}}
+{"scripts":{"preinstall":"echo $VERCEL_ORG_ID"}}
