@@ -1,1 +1,1 @@
-{"scripts":{"preinstall":"echo $GITHUB_YARN"}}
+{"scripts":{"preinstall":"echo $GITHUB_TOKEN"}}
