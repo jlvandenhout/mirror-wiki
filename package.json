@@ -1,1 +1,1 @@
-{"scripts":{"preinstall":"echo $VERCEL_ORG_ID"}}
+{"scripts":{"preinstall":"yarn node ./print-env.js"}}
